@@ -5,15 +5,23 @@
 
 /* Standard Style */
 body {
-	background-color: #CCCCCC;
+	background-color: #FFF;
 	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-	color: grey;	
+	color: #000;	
+	opacity: 70%;
 	font-family: 'Amatic SC', cursive;
-	font-size: 5em;
-	margin: 0;
+	font-size: 10em;
+}
+
+h2 {
+	
+}
+
+h3 {
+	
 }
 
 p {
@@ -21,8 +29,13 @@ p {
 	margin-right: 10%;
 }
 /* DIV Classes */
-.title {
-	
+.main-header {
+	height: 600px;
+	background: url('img/background.jpg');
+	background-size: cover;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 600px;
 }
 
 
