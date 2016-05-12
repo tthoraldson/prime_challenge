@@ -50,6 +50,27 @@ p {
 }
 
 
+
+/* Pseudo Classes */
+a:link {
+  color: rgba(224,224,224, 0.6);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(224,224,224, 0.6);
+}
+
+a:hover {
+  color: #1A1A1A;
+}
+
+a:active {
+  color: rgba(224,224,224, 0.6);
+}
+
+
+
 /* DIV Classes */
 .main-header {
 	height: 500px;
@@ -71,6 +92,19 @@ p {
 	font-family:  'Amatic SC', cursive;
 }
 
+#nav {
+	color: rgba(224,224,224, 0.6);	
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	text-decoration: none;
+}
+
+#nav-temp {
+	color: rgba(224,224,224, 0.6);	
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	text-decoration: none;
+}
 
 /* Media Queries*/
 @media screen and (min-width: 0px) and (max-width: 900px) {
@@ -78,9 +112,21 @@ p {
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
-  #temporary { display: block; }   /* displays H1 */
+  #temporary { display: block; }   /* displays large name */
 }
 
 @media screen and (min-width: 899px) {
   #temporary { display: none; }   /* hides plain text on bigger screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  #nav { display: none; }  /* hides larger nav */
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  #nav-temp { display: block; }   /* displays smaller nav */
+}
+
+@media screen and (min-width: 899px) {
+  #nav-temp { display: none; }   /* hides smaller nav */
 }
