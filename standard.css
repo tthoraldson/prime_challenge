@@ -20,7 +20,7 @@ h2 {
 	font-size: 2.5em;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 0;
+	margin-bottom: 5px;
 	margin-top: 5px;
 }
 
@@ -30,6 +30,7 @@ h3 {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 0;
+	margin-bottom:0;
 }
 
 h4 {
@@ -42,8 +43,9 @@ h4 {
 
 p {
 	line-height: 1.5;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5px;
 	margin-bottom: 0;
 }
 
@@ -58,25 +60,19 @@ p {
 	line-height: 800px;
 }
 
-.work {
-	
-}
-
-.education {
-	align: center;
-}
-
 .footer {
 	height: 75px;
 }
 
+
+/* DIV IDs */
 #temporary {
 	font-size: 3.5em;
 	font-family:  'Amatic SC', cursive;
 }
 
 
-/* Media */
+/* Media Queries*/
 @media screen and (min-width: 0px) and (max-width: 900px) {
   .main-header { display: none; }  /* no header photo small screens */
 }
