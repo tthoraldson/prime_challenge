@@ -7,13 +7,14 @@
 body {
 	background-color: #FFF;
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
 
 h1 {
-	color: #000;	
-	opacity: 70%;
+	color: rgba(0,0,0, 0.3);	
 	font-family: 'Amatic SC', cursive;
 	font-size: 10em;
+	margin-top: 0;
 }
 
 h2 {
@@ -30,12 +31,12 @@ p {
 }
 /* DIV Classes */
 .main-header {
-	height: 600px;
+	height: 500px;
 	background: url('img/background.jpg');
 	background-size: cover;
 	vertical-align: middle;
 	text-align: center;
-	line-height: 600px;
+	line-height: 150px;
 }
 
 
