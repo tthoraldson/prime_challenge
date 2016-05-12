@@ -1,12 +1,38 @@
 @charset "UTF-8";
-/* CSS Document */
 
+/* Web Fonts */
+
+
+/* Standard Style */
 body {
-	background-color: #727272;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #CCCCCC;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
 	color: grey;	
+	font-family: 'Amatic SC', cursive;
+	font-size: 5em;
+	margin: 0;
 }
+
+p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/* DIV Classes */
+.title {
+	
+}
+
+
+.work {
+	
+}
+
+
+.education {
+	
+}
+
 
