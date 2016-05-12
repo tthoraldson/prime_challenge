@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-/* Web Fonts */
-
-
 /* Standard Style */
 body {
 	background-color: #FFF;
@@ -11,42 +8,83 @@ body {
 }
 
 h1 {
-	color: rgba(0,0,0, 0.3);	
+	color: rgba(224,224,224, 0.6);	
 	font-family: 'Amatic SC', cursive;
-	font-size: 10em;
+	font-size: 8em;
 	margin-top: 0;
+	padding-right: 2%;
 }
 
 h2 {
-	
+	text-decoration: underline;
+	font-size: 2.5em;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 0;
+	margin-top: 5px;
 }
 
 h3 {
-	
+	color: #444444;
+	margin: 0, 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0;
+}
+
+h4 {
+	color: #909090;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+	margin: 0;
 }
 
 p {
+	line-height: 1.5;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 0;
 }
+
+
 /* DIV Classes */
 .main-header {
 	height: 500px;
 	background: url('img/background.jpg');
 	background-size: cover;
 	vertical-align: middle;
-	text-align: center;
-	line-height: 150px;
+	text-align: right;
+	line-height: 800px;
 }
-
 
 .work {
 	
 }
 
-
 .education {
-	
+	align: center;
+}
+
+.footer {
+	height: 75px;
+}
+
+#temporary {
+	font-size: 3.5em;
+	font-family:  'Amatic SC', cursive;
 }
 
 
+/* Media */
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .main-header { display: none; }  /* no header photo small screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  #temporary { display: block; }   /* displays H1 */
+}
+
+@media screen and (min-width: 899px) {
+  #temporary { display: none; }   /* hides plain text on bigger screens */
+}
