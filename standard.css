@@ -1,3 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-color: #727272;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color: grey;	
+}
+
+p {
+	margin: 0, 30%;
+}
