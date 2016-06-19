@@ -49,7 +49,21 @@ p {
 	margin-bottom: 0;
 }
 
+header {
+	height: 500px;
+	background: url('img/background.jpg');
+	background-size: cover;
+	vertical-align: middle;
+	text-align: right;
+	line-height: 800px;
+}
 
+nav {
+	color: rgba(224,224,224, 0.6);	
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	text-decoration: none;
+}
 
 /* Pseudo Classes */
 a:link {
@@ -72,14 +86,6 @@ a:active {
 
 
 /* DIV Classes */
-.main-header {
-	height: 500px;
-	background: url('img/background.jpg');
-	background-size: cover;
-	vertical-align: middle;
-	text-align: right;
-	line-height: 800px;
-}
 
 .footer {
 	height: 75px;
@@ -92,13 +98,6 @@ a:active {
 	font-family:  'Amatic SC', cursive;
 }
 
-#nav {
-	color: rgba(224,224,224, 0.6);	
-	font-family: 'Amatic SC', cursive;
-	font-size: 3em;
-	text-decoration: none;
-}
-
 #nav-temp {
 	color: rgba(224,224,224, 0.6);	
 	font-family: 'Amatic SC', cursive;
@@ -108,7 +107,7 @@ a:active {
 
 /* Media Queries*/
 @media screen and (min-width: 0px) and (max-width: 900px) {
-  .main-header { display: none; }  /* no header photo small screens */
+  header { display: none; }  /* no header photo small screens */
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
@@ -120,7 +119,7 @@ a:active {
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
-  #nav { display: none; }  /* hides larger nav */
+  nav { display: none; }  /* hides larger nav */
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
