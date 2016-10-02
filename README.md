@@ -2,4 +2,6 @@
 tthoraldson github pages repo.
 
 To Do:
-BE COOL
+WEB GL basics
+Wire frames
+Content design
