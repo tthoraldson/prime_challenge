@@ -28,10 +28,15 @@ twitter_username: tthoraldson
 github_username:  tthoraldson
 
 # Build settings
-theme: minima
+theme: jekyll-theme-console
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
+style: light
+
+header_pages:
+  - index.markdown
+  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
