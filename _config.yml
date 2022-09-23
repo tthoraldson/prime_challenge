@@ -28,7 +28,7 @@ twitter_username: tthoraldson
 github_username:  tthoraldson
 
 # Build settings
-theme: minima
+theme: millennial
 plugins:
   - jekyll-feed
 style: light
